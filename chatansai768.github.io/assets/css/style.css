@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(214, 211, 211);
+    margin: 20px;
+}
+
+
+header{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+}
+
+
+section{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0,0,0,0,1);
+}
+img{
+    border-radius: 50%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+
+}
+input{
+    width: 100%;
+    border: 1px solid black;
+}
+text area{
+    width: 100%;
+    border: 1px solid black;
+
+}
+input[type="submit"]{
+    background-color: rgb(20, 0, 84);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input[type="submit"]:hover{
+    background-color: rgb(10, 10, 227);
+    cursor: pointer;
+}
